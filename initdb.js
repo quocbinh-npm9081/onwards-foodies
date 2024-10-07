@@ -79,8 +79,8 @@ const dummyMeals = [
       "Creamy and cheesy macaroni, a comforting classic that's always a crowd-pleaser.",
     instructions: `
       1. Cook the macaroni:
-         Boil macaroni according to package instructions until al dente.
-
+         Boil macaroni according to package instructions until al dente.   
+         
       2. Prepare cheese sauce:
          In a saucepan, melt butter, add flour, and gradually whisk in milk until thickened. Stir in grated cheese until melted.
 

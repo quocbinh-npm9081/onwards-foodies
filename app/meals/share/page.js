@@ -1,10 +1,10 @@
-'use client'
+// 'use client'
 import classes from './page.module.css';
 import ImagePicker from '@/components/meals/image-picker'
 import  ShareMeal from '@/lib/action';
-// Client Component
-export default function ShareMealPage() {
+import MealsFormSubmit from '@/components/meals/meals-form-submit';
 
+export default function ShareMealPage() {
 
   return (
     <>
@@ -45,7 +45,7 @@ export default function ShareMealPage() {
           </p>
           <ImagePicker label="Your Image" name="image"/> 
           <p className={classes.actions}>
-            <button type="submit">Share Meal</button>
+          <MealsFormSubmit />
           </p>
         </form>
       </main>

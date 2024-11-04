@@ -5,6 +5,8 @@ import {Suspense} from 'react'
 import Link from 'next/link'
 
 async function Meals() {
+    console.log("Fetching meals ....")
+
     const meals = await getMeals();
     return <MealsGrid meals={meals}/>
 }

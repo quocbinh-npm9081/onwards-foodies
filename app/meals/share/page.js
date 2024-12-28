@@ -6,6 +6,8 @@ import MealsFormSubmit from '@/components/meals/meals-form-submit';
 import { useFormState } from 'react-dom';
 export default function ShareMealPage() {
   const [state, formAction] = useFormState(ShareMeal, {message : null} )
+  console.log("render client...");
+  
   return (
     <>
       <header className={classes.header}>

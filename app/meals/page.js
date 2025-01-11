@@ -3,6 +3,15 @@ import classes from './page.module.css'
 import { getMeals } from '@/lib/meals'
 import {Suspense} from 'react'
 import Link from 'next/link'
+import { notFound } from 'next/navigation'
+
+// either staic metadata
+export const metadata = {
+    title: 'NextLevel Food - Meals',
+    description: 'Browse the delicious meals shared by our vibrant community',
+  };
+  
+
 
 async function Meals() {
     console.log("Fetching meals ....")
